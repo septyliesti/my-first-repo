@@ -1,4 +1,6 @@
 import Logo from "./Logo";
+import Nav from "./NavItem";
+import Button from "./Button";
 
 export default function Navbar() {
     return (
@@ -8,19 +10,10 @@ export default function Navbar() {
               <Logo/>
             </div>
             <div className="w-6/12">
-              <ul className="nav flex justify-center space-x-10 text-lg">
-                <li className="nav-item text-white text-opacity-60 font-semibold text-lg">Profile</li>
-                <li className="nav-item text-white text-opacity-60 font-semibold text-lg">Skills</li>
-                <li className="nav-item text-white text-opacity-60 font-semibold text-lg">Project</li>
-                <li className="nav-item text-white text-opacity-60 font-semibold text-lg">Contact</li>
-              </ul>
+              <Nav/>
             </div>
             <div className="w-3/12">
-              <div className="button text-center">
-                <a className="text-lg font-semibold text-yellow-300 border rounded-full border-yellow-300 py-1 px-6">
-                Contact
-                </a>
-              </div>
+              <Button/>
             </div>
           </div>
         </nav>
