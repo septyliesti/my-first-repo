@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 function HeroSection() {
     return (
-        <div className="bg-cyan-600">
+        <div className="bg-cyan-600 h-[550px]">
             <div className="container mx-auto"></div>
              <Navbar/>
         </div>
